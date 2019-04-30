@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="../HLjs/jquery.js" /></script>
+<script type="text/javascript" src="../HLjs/HL_login.js" /></script>
+<link rel="stylesheet" type="text/css" href="../HLcss/HL_login.css" />
+<body> 
+<!--logo界面开始-->
+<div id="HL_logo">
+	<div class="HL_logo"><a href="../index.html"><img src="../HL_photos/login.png" alt="" /></a></div>
+	<span class="HL_logo_info">欢迎登录</span>
+</div>
+<div id="HL_bg">
+<!--登陆的界面开始-->
+<div id="HL_login">
+	<div class="HL_login">
+	<span class="HL_login_count">账号登录</span>	
+	<span class="HL_login_scan">扫码登录</span>	
+	</div>
+	<!--div盒子里class标签中HL_info是用来报登陆是否成功-->
+	<form action="" method="" name="form">
+	<div class="HL_toggle">
+	<div class="HL_info">账号或者密码不正确！！！</div>
+  <input class="HL_user" type="text" maxlength="11" alt="" placeholder="请输入账号" />
+  <div class="HL_user_info">请输入账号</div>
+  <input class="HL_pwd" type="password" maxlength="16" alt="" />
+  <div class="HL_pwd_info">请输入密码</div>
+  <div class="HL_other"><input type="checkbox" alt=""/>自动登录 <a href="#">忘记密码</a></div>
+	<div class="HL_button"> <input type="button" class="button" value="登录" /></div>
+	<div class="HL_infos">——————其他登录方式——————</div>
+	</div>
+	</form>
+	<!--这个是微信登陆的图片-->
+	<div class="HL_toggle_code"></div>
+	<div class="HL_other_info">
+		<a href="#" class="HL_other_info_QQ"><img src="../HL_photos/HL_qq.png" alt="QQ登录" /></a>
+		<a href="#" class="HL_other_info_wechat"><img src="../HL_photos/HL_wechat.png" alt="微信登录" /></a>
+		<span class="HL_other_item"><a href="#">立即注册</a></span>
+	</div>
+</div>
+</div>
+
+<!--版权声明-->
+<div id="HL_copyright">
+	<ul class="HL_copyright_ul">
+		<li><a href="#">关于米米乐</a> | <a href="#">产品服务</a> | <a href="#">投资者关系</a></li>
+					<li><a href="#">合作伙伴</a> | <a href="#">大客户通道</a> | <a href="#">权利声明</a> | <a href="#">对话高管</a> | <a href="#">隐私权保护</a></li>
+					<li><a href="#">友情链接</a> | <a href="#">招聘信息</a> | <a href="#">意见反馈</a> | <a href="#">帮助中心</a> | <a href="#">联系方式</a> | <a href="#">网站地图</a></li> 
+		</ul>
+</div>
+</body>
+</html>

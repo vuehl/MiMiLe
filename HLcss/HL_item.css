@@ -1,0 +1,497 @@
+body,span,div,ul,li,input {
+	margin:0px;
+	padding:0px;
+	}
+/*米米乐logo的开始*/
+#HL_logo {
+	width:200px;
+	height:50px;
+	text-align:center;
+	position:absolute;
+	margin:0px 0 0 100px;
+	}
+.HL_logo {
+	width:200px;
+	height:50px;
+	background:url('../HL_photos/login.png') no-repeat;
+	}	
+#HL_logo span {
+	width:100px;
+	height:50px;
+	font-Size:40px;
+	line-height:50px;
+	font-weight:bold;
+	}
+.HL_login {
+	width:200px;
+	height:50px;
+	text-decoration:none;
+	font-Size:20px;
+	color:#ccc;
+  position:absolute;
+	left:900px;
+	top:50px;
+	}
+.HL_login:hover {
+	color:red;
+	}	
+	
+/*写注册表单开始*/
+#HL_item {
+	width:400px;
+	height:530px;
+	position:absolute;
+	top:150px;
+	left:200px;
+	border:0px;
+	}	
+/*账号开始*/	
+.HL_item_user {
+	width:400px;
+	height:50px;
+	line-height:50px;
+	font-Size:16px;
+	border:1px solid #999;
+	}	
+.HL_item_user .HL_item_user_span{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	padding:0 0 0 20px;
+	}	
+.HL_item_user input {
+	width:300px;
+	height:48px;
+	border:0px;
+	float:right;
+	margin:1px 1px 0 0;
+	}
+.HL_item_user_info {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:5px 0 0 0;
+	color:#999;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	}	
+.HL_item_user_error {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:5px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_error.png') no-repeat 0px 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_user_error2 {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:5px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_error.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_user_correct {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:5px 0 0 0;
+	color:green;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}		
+/*密码开始*/		
+.HL_item_pwd {
+	width:400px;
+	height:50px;
+	line-height:50px;
+	font-Size:16px;
+	position:absolute;
+	margin:30px 0 0 0;
+	z-index:1;
+	border:1px solid #999;
+	}	
+.HL_item_pwd .HL_item_pwd_span{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	padding:0 0 0 20px;
+	}	
+.HL_item_pwd input {
+	width:300px;
+	height:48px;
+	border:0px;
+	float:right;
+	margin:1px 1px 0 0;
+	}
+.HL_item_pwd_info {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:85px 0 0 0;
+	color:#999;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	}		
+.HL_item_pwd_error {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:85px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_error.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_pwd_correct {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:85px 0 0 0;
+	color:green;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_pwd_judge1 {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:85px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_pwd_judge2 {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:85px 0 0 0;
+	color:orange;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_pwd_judge3 {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:85px 0 0 0;
+	color:green;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+/*确认密码 开始*/					
+.HL_item_pwds {
+	width:400px;
+	height:50px;
+	line-height:50px;
+	font-Size:16px;
+	position:absolute;
+	margin:110px 0 0 0;
+	z-index:1;
+	border:1px solid #999;
+	}	
+.HL_item_pwds .HL_item_pwds_span{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	padding:0 0 0 20px;
+	}	
+.HL_item_pwds input {
+	width:300px;
+	height:48px;
+	border:0px;
+	float:right;
+	margin:1px 1px 0 0;
+	}
+.HL_item_pwds_info {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:165px 0 0 0;
+	color:#999;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	}	
+.HL_item_pwds_error {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:165px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_error.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_pwds_correct {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:165px 0 0 0;
+	color:green;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}			
+.HL_item_photo {
+	width:400px;
+	height:50px;
+	line-height:50px;
+	font-Size:16px;
+	position:absolute;
+	margin:190px 0 0 0;
+	z-index:1;
+	border:1px solid #999;
+	}	
+.HL_item_photo .HL_item_photo_span{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	padding:0 0 0 20px;
+	}	
+.HL_item_photo input {
+	width:300px;
+	height:48px;
+	border:0px;
+	float:right;
+	margin:1px 1px 0 0;
+	}
+.HL_item_photo_info {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:245px 0 0 0;
+	color:#999;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	}		
+.HL_item_photo_error {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:245px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_error.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_photo_correct {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:245px 0 0 0;
+	color:green;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 0 3px;
+	background-size:14px 14px;
+	}			
+.HL_item_code {
+	width:400px;
+	height:50px;
+	border:1px solid #999;
+	line-height:50px;
+	font-Size:16px;
+	position:absolute;
+	margin:270px 0 0 0;
+	z-index:1;
+	}	
+.HL_item_code .HL_item_code_span{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	padding:0 0 0 20px;
+	}	
+.HL_item_code input {
+	width:176px;
+	height:48px;
+	border:0px;
+	margin:1px 0px 0 23px;
+	}
+	
+.HL_item_code_info {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	position:absolute;
+	margin:325px 0 0 0;
+	cursor:pointer;
+	color:blue;
+	z-index:1;
+	font-Size:14px;
+	display:block;
+	}		
+.HL_item_code_error {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-align:right;
+	text-indent:2em;
+	position:absolute;
+	margin:325px 0 0 0;
+	color:red;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_error.png') no-repeat 285px 3px;
+	background-size:14px 14px;
+	}	
+.HL_item_code_correct {
+	width:400px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	text-align:right;
+	position:absolute;
+	margin:325px 0 0 0;
+	color:green;
+	z-index:1;
+	font-Size:14px;
+	display:none;
+	background:url('../HL_photos/HL_item_correct.png') no-repeat 285px 3px;
+	background-size:14px 14px;
+	}			
+.HL_item_check {
+	width:400px;
+	height:50px;
+	line-height:50px;
+	font-Size:13px;
+	position:absolute;
+	margin:370px 0 0 0;
+	z-index:1;
+	color:#666;
+	}	
+.HL_item_button {
+	width:400px;
+	height:50px;
+	line-height:50px;
+	border:0px;
+	position:absolute;
+	margin:420px 0 0 0;
+	background:rgb(0,157,230);
+	border-radius:10px;
+	}
+.HL_item_button:hover {
+	background:rgb(41,167,225);
+	}	
+.HL_item_bg {
+	width:400px;
+	height:500px;
+	position:absolute;
+  left:850px;
+  top:130px;
+	border:0px;
+	background:url('../HL_photos/HL_item_bg.png') no-repeat;
+	background-size:400px 530px;
+	z-index:30;
+	}		
+	
+/*版权信息开始*/
+#HL_copyright {
+  width:1352px;
+  height:75px;	
+  position:absolute;
+  top:750px;
+  z-index:3333;
+  background:#ccc;
+	}
+#HL_copyright .HL_copyright_ul {
+	width:1352px;
+	height:75px;
+	}
+#HL_copyright .HL_copyright_ul li {
+	width:1352px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	list-style:none;
+	}
+#HL_copyright .HL_copyright_ul li a {
+	width:1352px;
+	height:25px;
+	line-height:25px;
+	text-decoration:none;
+	font-Size:14px;
+	color:#666;
+	}
+#HL_copyright .HL_copyright_ul li a:hover {
+	color:red;
+	
+	}	
+		
+	
+	
+	
+	
+	
+	
+	
+	
